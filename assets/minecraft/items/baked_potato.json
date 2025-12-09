@@ -1,0 +1,19 @@
+{
+    "model":{
+        "type":"range_dispatch",
+        "property":"custom_model_data",
+        "fallback":{
+            "type":"model",
+            "model":"item/feather"
+        },
+        "entries":[
+            {
+                "threshold":1000001,
+                "model":{
+                    "model":"lavacraft/food/tater_tot",
+                    "type": "model"
+                }
+            }
+        ]
+    }
+}
